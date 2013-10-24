@@ -27,7 +27,7 @@ def neighborjoining(dis_map, n, L):
 				min_i = i
 				min_j = j
 
-		print min_i, min_j
+		print min_i+1, min_j+1, L+1
 
 		#define new node n for minimal i and j
 		new_dis_map = {}
